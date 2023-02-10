@@ -20,7 +20,7 @@ function newItem() {
     }
 
     li.on('dblclick', function crossOut() {
-        li.addClass("dblclick", crossOut);
+        li.toggleClass("dblclick", crossOut);
     });
 
 
